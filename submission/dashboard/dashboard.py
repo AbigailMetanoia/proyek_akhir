@@ -151,7 +151,7 @@ categories_to_plot.reset_index(drop=True, inplace=True)
 categories_to_plot= categories_to_plot.sort_values(by='review_score', ascending=False)
 categories_to_plot['Ranking'] = range(1, len(categories_to_plot) + 1)
 categories_to_plot['Kategori Review'] = pd.cut(categories_to_plot['review_score'], bins=[0, 2.5, 3.5, 4.5, 5], labels=['Sangat Buruk', 'Buruk', 'Baik', 'Sangat Baik'], right=False)
-top_5_products.columns = ['Nama Kategori Produk', 'Nilai Rata-rata Review', 'Rangking','Kategori Review']
+categories_to_plot.columns = ['Nama Kategori Produk', 'Nilai Rata-rata Review', 'Rangking','Kategori Review']
 st.table(categories_to_plot)
 
 #Kesimpulan
