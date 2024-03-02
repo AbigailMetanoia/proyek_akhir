@@ -17,10 +17,10 @@ st.write(
 
 #Membaca dataset yang sudah diolah
 # Baca data dari file CSV
-product_df = pd.read_csv("../data/products_dataset.csv")
-category_translation_df = pd.read_csv("../data/product_category_name_translation.csv")
-orders_df = pd.read_csv("../data/order_items_dataset.csv")
-order_reviews_df = pd.read_csv("../data/order_reviews_dataset.csv")
+product_df = pd.read_csv("https://github.com/AbigailMetanoia/proyek_akhir/blob/main/submission/data/order_items_dataset.csv")
+category_translation_df = pd.read_csv("https://github.com/AbigailMetanoia/proyek_akhir/blob/main/submission/data/product_category_name_translation.csv")
+orders_df = pd.read_csv("https://github.com/AbigailMetanoia/proyek_akhir/blob/main/submission/data/order_items_dataset.csv")
+order_reviews_df = pd.read_csv("https://github.com/AbigailMetanoia/proyek_akhir/blob/main/submission/data/order_reviews_dataset.csv")
 
 # Gabungkan product_df dengan category_translation_df agar mengetahui nama masing-masing product
 merged_product_df = pd.merge(left=product_df,
