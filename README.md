@@ -2,8 +2,9 @@
 
 ## Setup environment
 
-1. Buka folder code dashboar.py di simpan lalu ketik cmd.
-2. Setelah terminal CMD terbuka maka kita dapat menjalankan 
+1. Simpan zip file lalu ekstrak di folder kalian masing-masig.
+2. Buka folder code dashboard.py di simpan lalu ketik cmd.
+3. Setelah terminal CMD terbuka maka kita dapat menjalankan 
 dashboard streamlit secara local.
 
 ## Run steamlit app
